@@ -1,0 +1,32 @@
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#create-grid-btn{
+  padding: 8px 16px;
+  font-weight: bold;
+  background-color: #4b608f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap:wrap;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #000
+}
+
+
+.grid-cell {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+  
+  
